@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Deposit</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <!-- NAVIGATIONAL SECTION STARTS -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-white  nav-body-design" id="top-nav">
+          <div class="container-fluid">
+              <a class="navbar-brand logo-design" href="../index.html">
+                  <img src="./img/image01.webp" width="150" height="35" alt="Acquire In-Demand Tech skills." id="logo" data-height-percentage="90" data-actual-width="400" data-actual-height="400">
+              </a>
+            <button class="navbar-toggler button-design" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  nav-design" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-hover" href="../About Us/index.html" role="link">Our Company</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                  <ul class="dropdown-menu dropdown-design2">
+                    <li><a class="dropdown-item d-flex gap-3 align-items-center" href="#">
+                        <span style="background-color: #336eeb; padding: .7em; border-radius: 4px;"><img src="./img/image02.svg" alt="" width="20" height="19"></span>
+                        <span><strong>Savings</strong></span>
+                        <span class="ms-3"><img src="./img/image03.svg" alt=""></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-design3">
+                        <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                            <span style="background-color: #336eeb; padding: .7em; border-radius: 4px;"><img src="./img/image02.svg" alt="" width="20" height="19"></span>
+                            <span><strong>FairSave</strong></span>
+                        </a></li>
+                        <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                            <span style="background-color: #319c38; padding: .7em; border-radius: 4px;"><img src="./img/image02.svg" alt="" width="20" height="19"></span>
+                            <span><strong>FairLock</strong></span>
+                        </a></li>
+                    </ul>
+                    </li>
+
+                    <li><a class="dropdown-item d-flex gap-3 align-items-center" href="#">
+                        <span style="background-color: #afeec8; padding: .7em; border-radius: 4px;"><img src="./img/image04.svg" alt="" width="20" height="19"></span>
+                        <span><strong>Lending</strong></span>
+                        <span class="ms-3"><img src="./img/image03.svg" alt=""></span>
+                    </a>
+                        <ul class="dropdown-menu dropdown-design4">
+                            <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                                <span style="background-color: #37a477; padding: .7em; border-radius: 4px;"><img src="./img/image04.svg" alt="" width="20" height="19"></span>
+                                <span><strong>Personal Loans</strong></span>
+                            </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                                <span style="background-color: #afeec8; padding: .7em; border-radius: 4px;"><img src="./img/image04.svg" alt="" width="20" height="19"></span>
+                                <span><strong>Business Loans</strong></span>
+                            </a></li>
+                        </ul>
+                    </li>
+
+                    <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                        <span style="background-color: #66329f; padding: .7em; border-radius: 4px;"><img src="./img/image05.svg" alt="" width="20" height="19"></span>
+                        <span><strong>Bills Payment</strong></span>
+                    </a></li>
+                    <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                        <span style="background-color: #319c38; padding: .7em; border-radius: 4px;"><img src="./img/image06.svg" alt="" width="20" height="19"></span>
+                        <span><strong>Bank Account</strong></span>
+                    </a></li>
+                    <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                        <span style="background-color: #37a477; padding: .7em; border-radius: 4px;"><img src="./img/image07.svg" alt="" width="20" height="19"></span>
+                        <span><strong>Cards</strong></span>
+                    </a></li>
+                    <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                        <span style="background-color: #8f69b9; padding: .7em; border-radius: 4px;"><img src="./img/image08.svg" alt="" width="20" height="19"></span>
+                        <span><strong>POS Service</strong></span>
+                    </a></li>
+                    <li><a class="dropdown-item d-flex align-items-center gap-3" href="../fixed-deposit/index.html">
+                        <span style="background-color: #37a477; padding: .7em; border-radius: 4px;"><img src="./img/image08.svg" alt="" width="20" height="19"></span>
+                        <span><strong>Fixed Deposit</strong></span>
+                    </a></li>
+                  </ul>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Calculator</a>
+                  <ul class="dropdown-menu dropdown-design3" style="margin-left: -280px; margin-top: 60px; background-color: #fff; z-index: 1;">
+                    <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                        <span style="background-color: #336eeb; padding: .7em; border-radius: 4px;"><img src="./img/image02.svg" alt="" width="20" height="19"></span>
+                        <span><strong>Savings Calculator</strong></span>
+                        <span class="ms-3"><img src="./img/image03.svg" alt="">
+                    </a>
+                        <ul class="dropdown-menu dropdown-design2" style="margin-left: 420px; margin-top: -60px;">
+                            <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                                <span style="background-color: #336eeb; padding: .7em; border-radius: 4px;"><img src="./img/image02.svg" alt="" width="20" height="19"></span>
+                                <span><strong>FairSave</strong></span>
+                            </a></li>
+                            <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                                <span style="background-color: #336eeb; padding: .7em; border-radius: 4px;"><img src="./img/image02.svg" alt="" width="20" height="19"></span>
+                                <span><strong>FairLock</strong></span>
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item d-flex align-items-center gap-3" href="#">
+                        <span style="background-color: #afeec8; padding: .7em; border-radius: 4px;"><img src="./img/image04.svg" alt="" width="20" height="19"></span>
+                        <span><strong>Loans Calculator</strong></span></span>
+                    </a></li>
+                  </ul>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="../News and Updates/index.html" role="link">News & Updates</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                  <a class="nav-link" aria-current="page" href="#">FAQ</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <button class="btn btn-light dropdown-toggle mt-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="./img/nigeria-removebg-preview.png" alt="" width="25">
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><img src="./img/nigeria-removebg-preview.png" alt="" width="25"><span class="ms-2"><strong>Nigeria</strong></span></a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./img/uganda-removebg-preview.png" alt="" width="25"><span class="ms-2"><strong>Uganda</strong></a></li>
+                      
+                    </ul>
+                </li>
+  
+                <li class="nav-item contact mt-3 ms-3">
+                    <button type="button" class="btn btn-dark"><a href="../Contact Us/index.html" style="color: inherit; text-decoration: none;">Contact Us</a></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+      </header>
+    <!-- NAVIGATION SECTION ENDS -->
+
+    <!-- main  -->
+    <main>
+        <!-- section 1  -->
+        <div class="container-fluid section-1">
+            <div class="hero-1">Welcome to FairMoney's Fixed Deposit Investment</div>
+            <div class="hero-2">Your Path to Building Wealth and Protecting your investment from Inflation!</div>
+            <div class="hero-3" role="button">Start Your Investment Journey</div>
+        </div>
+        <!-- section 2  -->
+        <div class="container-fluid section-2">
+            <div class="left">
+                <div class="l1">
+                    <div class="top">LICENSED BY</div>
+                    <div class="bot">
+                        <span class="bot-1"></span>
+                        <span class="bot-2"></span>
+                    </div>
+                </div>
+                <div class="l1">
+                    <div class="top">DEPOSITS INSURED BY</div>
+                    <div class="bot">
+                        <span class="bot-3"></span>
+                        <span class="bot-4"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">CONTACT US</div>
+                <div class="bott">
+                    <span class="bot-5"></span>
+                    <div class="right-text">investment@fairmoney.io</div>
+                </div>
+            </div>
+        </div>
+        <!-- section 3  -->
+        <div class="container-fluid section-3">
+            <div class="top">
+                <div class="left">
+                    <div class="div-1">At Fairmoney Microfinance Bank</div>
+                    <div class="div-2">We understand the importance of smart financial planning and helping our customers achieve their wealth-building goals</div>
+                    <div class="div-3">Our Fixed Deposit Investment offers an incredible opportunity to grow your money while safeguarding it against inflation. With attractive returns of up to 21% per annum , we provide a secure and reliable platform for your investments.</div>
+                </div>
+                <div class="right">
+                    <div class="right-img"></div>
+                </div>
+            </div>
+            <div class="bottom"><h1>Our Benefits</h1></div>
+        </div>
+        <!-- section 4  -->
+        <div class="container-fluid section-4">
+            <div class="left">
+                <a class="left-1">
+                    <span>Competitive Rates</span>
+                    <div class="icon"></div>
+                </a>
+                <a class="left-1">
+                    <span>Guaranteed Returns on Investment</span>
+                    <div class="icon"></div>
+                </a>
+                <a class="left-1">
+                    <span>Flexible Tenor</span>
+                    <div class="icon"></div>
+                </a>
+                <a class="left-1">
+                    <span>Premature Liquidation Option</span>
+                    <div class="icon"></div>
+                </a>
+                <a class="left-1">
+                    <span>Interest Payment Options</span>
+                    <div class="icon"></div>
+                </a>
+                <a class="left-1">
+                    <span>Access to Cash-Backed Loans</span>
+                    <div class="icon"></div>
+                </a>
+            </div>
+            <div class="right">
+                <div class="right-content">
+                    <div class="content-1">Competitive Rates</div>
+                    <div class="content-2">We offer highly competitive interest rates on your investments, ensuring that your money works harder for you. With our attractive rates, you can maximize your earnings and achieve your financial objectives faster.</div>
+                </div>
+            </div>
+        </div>
+        <!-- section 5  -->
+        <div class="container-fluid section-5">
+            <h1>What Sets Us Apart</h1>
+            <div class="grid-box">
+                <div class="grid-1">
+                    <div class="fat">Transparency</div>
+                    <div class="thin">No hidden charges. Best rates are shared</div>
+                </div>
+                <div class="grid-2">
+                    <div class="fat">Security</div>
+                    <div class="thin">We are backed by NDIC and regulated by the Central Bank of Nigeria</div>
+                </div>
+                <div class="grid-3">
+                    <div class="fat">Dedicated Account Managers</div>
+                    <div class="thin">Our dedicated team of financial experts are committed to guiding you through the investment process, answering any questions you may have, and assisting you in making informed decisions about your wealth creation journey.</div>
+                </div>
+            </div>
+            <div class="flexbox">
+                <div class="left">
+                    <div class="div-1">
+                        Invest in FairMoney's Fixed Deposit today and start your journey to financial freedom!
+                    </div>
+                    <div class="div-2">
+                        Don't miss out on the chance to grow your wealth and protect yourself from inflation
+                    </div>
+                    <div class="div-3" role="button">
+                        Get Started
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="img"><img src="./img/image23.png" alt="" style="width: inherit;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section 6  -->
+        <div class="container-fluid section-6 mt-5">
+            <h1>
+                <span><img src="./img/image24.svg" alt="" width="60"></span>
+                With <span class="bill">₦19.5 Billion</span> In Deposits, Here’s What Our Customers Say.
+                <span><img src="./img/image25.svg" alt="" width="60"></span>
+            </h1>
+        </div>
+        <!-- section 7  -->
+        <div class="container-fluid section-7 mt-5">
+            <div class="box-1">
+                <div class="word">“Using fairmoney has been stress free. Liquidation is swift and I’ve had no hitches. ”</div>
+                <div class="testifier">IJEOMA VICTORIA</div>
+            </div>
+            <div class="box-1">
+                <div class="word">“Fairmoney’s competitive interest rate was what attracted them to me, doing business with them has been great so far. ”</div>
+                <div class="testifier">CHUKWUMATI JOSEPH</div>
+            </div>
+            <div class="box-1">
+                <div class="word">“Above all, Kudos to you and the whole management team for creating excellent services in the fintech space.”</div>
+                <div class="testifier">MR. STEVE</div>
+            </div>
+        </div>
+
+        
+
+    </main>
+    <!-- section 8  -->
+    <div class="container-fluid section-8">
+        <div class="sect">
+            <h1>We’d Love to Hear from you!</h1>
+            <form>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label form-t">Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name">
+            </div>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label form-t">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label form-t">Phone Number</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter phone number">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label form-t">How much would you like to invest?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="resize: none;"></textarea>
+            </div>
+            <button type="submit" class="mt-5">Submit</button>
+            </form>
+        </div>
+     </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-top">
+                <h4><strong>Menu</strong></h4>
+                <div class="footer-ttt">
+                    <div class="footer-left">
+                        <div class="footer-left-top">
+                            <div class="f1">
+                                <a href="">Home</a>
+                                <a href="">Our Company</a>
+                                <a href="">Contact Us</a>
+                                <a href="">FAQ</a>
+                            </div>
+                            <div class="f2">
+                                <a href="">FairSave</a>
+                                <a href="">FairLock</a>
+                                <a href="">Personal Loans</a>
+                                <a href="">Business Loans</a>
+                            </div>
+                            <div class="f3">
+                                <a href="">Bank Account</a>
+                                <a href="">Cards</a>
+                                <a href="">Bills Payment</a>
+                            </div>
+                        </div>
+                        <div class="footer-left-bot">
+                            <a href="">Terms and Conditions</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Referrals</a>
+                            <a href="">Whistleblower Polcy</a>
+                            <a href="">FairMoney.io</a>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="top">
+                            <div class="top-img">
+                                <div class="get"><img src="./img/image27.svg" alt=""></div>
+                                <div class="get"><img src="./img/image28.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="bott">
+                            <a><img src="./img/image29.svg" alt="" width="10"></a>
+                            <a><img src="./img/image30.svg" alt="" width="20"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom mt-5"><div>All rights reserved. © 2024 FairMoney</div></div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

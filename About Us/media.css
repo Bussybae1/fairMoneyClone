@@ -1,0 +1,63 @@
+@media (max-width: 923px){
+    main .section-2 .sect-2-bottom .wrapper .box{
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 768px){
+    main{
+        padding: 0px;
+    }
+    main .section-1 h1{
+        text-align: center;
+    }
+    main .section-3{
+        display: block;
+    }
+    main .section-3 .left, .right{
+        width: 100%;
+        margin: 50px auto;
+    }
+    main .section-3 .left a{
+        margin: 20px auto;
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    main .section-3 .left, .right .img{
+        width: inherit;
+    }
+}
+
+
+
+
+
+@media (max-width: 480px){
+    main .section-1 .sect-1-bottom .left .head{
+        font-size: 10px;
+    }
+    main .section-1 .sect-1-bottom .left .p1, .p2{
+        font-size: 15px;
+        margin: 0px 0px 10px;
+    }
+    main .section-2 .sect-2-bottom .wrapper .box{
+        width: 100%;
+    }
+    main .section-3 .left h1 strong{
+        font-size: 32px;
+    }
+    main .section-3 .left p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 470px){
+    footer{
+        padding: 3em 2em;
+    }
+}
+@media (max-width: 200px){
+    footer .footer-top .footer-ttt .footer-right .top .top-img .get img{
+        width: 80px;
+    }
+}

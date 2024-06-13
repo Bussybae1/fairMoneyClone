@@ -1,0 +1,248 @@
+
+
+
+@media (max-width: 991px){
+    main .section-1{
+        padding: 200px 30px 60px 30px;
+    }
+    main .section-1 .hero-1{
+        font-size: 38px;
+        max-width: 400px;
+        margin-top: 10px;
+    }
+    main .section-1 .hero-2{
+        max-width: 300px;
+    }
+    main .section-1 .hero-3{
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    main .section-4{
+        flex-direction: column;
+    }
+    main .section-4 .left{
+        width: 100%;
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+    main .section-4 .left .left-1{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: start;
+        padding-right: .5em;
+        font-size: 10px;
+    }
+    main .section-4 .right{
+        width: 100%;
+        height: fit-content;
+        background-size: 10%, 10%;
+    }
+    main .section-4 .right .right-content{
+        margin: 20px;
+    }
+    main .section-4 .right .right-content .content-1{
+        font-size: 25px;
+    }
+    main .section-4 .right .right-content .content-2{
+        font-size: 18px;
+    }
+    main .section-6 h1{
+        font-size: 30px;
+    }
+    main .section-7{
+        overflow-x: scroll;
+    }
+}
+
+
+@media (max-width: 768px){
+    main{
+        width: 100%;
+        margin: 100px 0px;
+    }
+    main .section-1{
+        padding: 150px 20px 60px;
+    }
+    main .section-1 .hero-1{
+        font-size: 35px;
+    }
+    main .section-1 .hero-3{
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+    main .section-3{
+        padding: 30px;
+        margin-top: 150px;
+    }
+    main .section-3 .top{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 30px;
+    }
+    main .section-3 .top .left{
+        width: 100%;
+    }
+    main .section-3 .top .left .div-1{
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+    main .section-3 .top .left .div-2{
+        font-size: 25px;
+        max-width: none;
+        font-weight: 600;
+    }
+    main .section-3 .top .right{
+        height: 350px;
+        width: 100%;
+    }
+    main .section-3 .top .right .right-img{
+        width: inherit;
+        height: 100%;
+    }
+    main .section-4 .right .right-content{
+        width: 100%;
+        flex-direction: column;
+    }
+    main .section-4 .right .right-content .content-1{
+        width: 60%;
+        max-width: none;
+        text-align: center;
+        margin-left: -30px;
+    }
+    main .section-4 .right .right-content .content-2{
+        width: 70%;
+        max-width: none;
+        text-align: center;
+        border-left: none;
+        border-top: 1px solid #0000005e;
+        padding-top: 1em;
+        margin-left: -30px;
+    }
+    main .section-5 h1{
+        font-size: 34px;
+    }
+    main .section-5 .grid-box{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    main .section-5 .grid-box .grid-1{
+        background-size: 20%;
+    }
+    main .section-5 .grid-box .grid-2{
+        background-size: 20%;
+    }
+    main .section-5 .grid-box .grid-3{
+        background-size: 20%;
+    }
+    main .section-5 .flexbox{
+        flex-direction: column;
+    }
+    main .section-5 .flexbox .left{
+        padding: 1.5em;
+    }
+    main .section-5 .flexbox .left .div-1{
+        max-width: none;
+    }
+    main .section-5 .flexbox .left .div-2{
+        max-width: none;
+    }
+    main .section-5 .flexbox .left .div-3{
+        font-size: 14px;
+    }
+    main .section-5 .flexbox .right{
+        width: 100%;
+        border-radius: 20px;
+        height: 300px;
+    }
+    main .section-5 .flexbox .right .img{
+        width: 80%;
+    }
+    .section-8{
+        background-size: 10%, 10%;
+    }
+    .section-8 .sect h1{
+        font-size: 35px;
+    }
+    .section-8 .sect form{
+        padding: 20px;
+    }
+    .section-8 .sect form input{
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 560px){
+    main .section-3 .top{
+        text-align: center;
+    }
+    main .section-3 .top .right{
+        height: 250px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 479px){
+    main .section-5 h1{
+        font-size: 30px;
+    }
+    main .section-5 .flexbox{
+        gap: 0.2em;
+    }
+    main .section-5 .flexbox .left .div-1{
+        font-size: 25px;
+    }
+    main .section-6 h1{
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .section-8 .sect{
+        width: 100%;
+    }
+    .section-8 .sect h1{
+        font-size: 30px;
+    }
+    .section-8 .sect form{
+        padding: 30px;
+    }
+    footer{
+        padding: 3em 2em;
+    }
+}
+
+
+@media (max-width: 440px){
+    main .section-1{
+        padding: 100px 20px 15px;
+    }
+    main .section-1 .hero-1{
+        font-size: 28px;
+        max-width: 400px;
+        margin-top: 10px;
+    }
+    main .section-1 .hero-2{
+        max-width: 300px;
+        font-size: 18px;
+    }
+    main .section-1 .hero-3{
+        text-align: left;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 200px){
+    footer .footer-top .footer-ttt .footer-right .top .top-img .get img{
+        width: 80px;
+    }
+}
