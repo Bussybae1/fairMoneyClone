@@ -10,6 +10,10 @@ body{
     line-height: 20px;
     background-color: #fff;
 }
+header{
+    width: 100%;
+    margin: 0px auto;
+}
 .nav-body-design{
     background-color:#ffffff;
     position: fixed;
@@ -72,6 +76,7 @@ body{
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    transition: display .5s;
   }
   .nav-design ul li:hover > .dropdown-design2{
     display: block;
@@ -123,6 +128,7 @@ body{
     font-weight: 500;
     /* margin-top: -3px; */
     /* margin-left: -15px; */
+    transition: display .5s;
   }
   .nav-design ul li:hover > .dropdown-design4{
     display: block;
